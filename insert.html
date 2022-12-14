@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<input type = button value = 'change button color' onclick = f() id = "se">
+<input type = button value = 'change back color' onclick = g()>
+<input type = button value = 'Image' onclick = i()>
+<span id = 'ae'></span>
+<script>
+ function f()
+ {
+ 	document.getElementById("se").style.backgroundColor = "aqua";
+ }
+ function g()
+ {
+	document.body.style.backgroundColor = "red";
+ }
+ function i()
+ {
+ 	document.getElementById("ae").innerHTML = "<img src = a.jpg alt = none>";
+ }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<input type = text value = '' onchange = f() id = "s">
+<input type = text value = '' onchange = f() id = "a">
+<input type = text value = '' id = "d" readonly>
+<script>
+ function f()
+ {
+ 	var a = parseInt(document.getElementById("a").value);
+    var b = parseInt(document.getElementById("s").value);
+    var c = document.getElementById("d");
+    c.value = a+b;
+ }
+</script>
+
+</body>
+</html>
